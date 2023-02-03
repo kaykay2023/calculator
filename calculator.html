@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="container">
+  <div class="calculator">
+<form>
+  <div class="display">
+ <input type="text" name="display" id="display"> 
+  </div>
+  <div>
+    <button type="button"value="AC" onclick="updateCount('AC')">AC</button>
+    <button type="button"value="DE"onclick="updateCount('DE')">DE</button>
+    <button type="button"value="."onclick="updateCount('.')">.</button>
+    <button type="button"value="/"onclick="updateCount('/')">/</button>
+  </div>
+  <div>
+    <button type="button"value="7"onclick="updateCount(7)">7</button>
+    <button type="button"value="8"onclick="updateCount(8)">8</button>
+    <button type="button"value="9"onclick="updateCount(9)">9</button>
+    <button type="button"value="*"onclick="updateCount('*')">*</button>
+  </div>
+  <div>
+    <button type="button"value="4"onclick="updateCount(4)">4</button>
+    <button type="button"value="5"onclick="updateCount(5)">5</button>
+    <button type="button"value="6"onclick="updateCount(6)">6</button>
+    <button type="button"value="-"onclick="updateCount('-')">-</button>
+  </div>
+  <div>
+    <button type="button"value="1"onclick="updateCount(1)">1</button>
+    <button type="button"value="2"onclick="updateCount(2)">2</button>
+    <button type="button"value="3"onclick="updateCount(3)">3</button>
+    <button type="button"value="+"onclick="updateCount('+')">+</button>
+  </div>
+  <div>
+    <button type="button"value="00"onclick="updateCount(00)">00</button>
+    <button type="button"value="0"onclick="updateCount(0)">0</button>
+    <button type="button"value="=" onclick="updateCount('=')"> = </button>
+    
+  </div>
+</form>
+
+  </div>
+
+</div>
+ 
+
+<script src="app.js"></script>
+</body>
+</html>
